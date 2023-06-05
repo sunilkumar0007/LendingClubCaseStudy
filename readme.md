@@ -7,46 +7,56 @@ Lending club is a consumer finance company which specializes in lending various 
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [List of tasks](#list-of-tasks)
+* [TechnologiesUsed](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## List of tasks
+- Data Understanding.
+- Data Cleaning and Manipulation
+- Univariate Analysis
+- StandardUnivariate Analysis
+- Bivariate Analysis
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+### Conclusion from univariate analysis
+  - Higher loan amount casues more default cases compare to lower loan_amount
+  - Annual Income between 35000 to 66000 more prone to charging off from their loan
+  - Average Interest Rate value of charged off has higher than fully paid rate, Higher interest rates may leads to charged off
+  - Grade C has high charged off cases, sub_grade C2 has highest charged off cases
+  - More expierenced customers(10+ years) has high prone to charged off
+  - Rented Source Verified has highest number of Charged Off cases
+  - Debt consolidation purpose has high number of loans.
+  - If we compare both the graphs small_busniess loans high in Charged Off case compared to whole number of loans.
+  - after comparing both the graphs zip_code 900 -999 are taking more number of Chraged Off loans
+  - CA state taking more loans and more tends to charged off as well
+### Conclusion from bivariate analysis
+  - Higher loan amount with higher interest rate leads to ChragedOff cases
+  - Higher Income with higher loan_amount and annual_income leads to Default
+  - Lower Dti with interest rate between 11-16% leads to Default
+  - More Default cases we can see here in Ownership as Mortgade and emp_length > 10 years
+  - high interestrate with 60 months tenure has high probability of 'Charged Off'
+  - ZipCode in 900 -999 range(CA state) highest number of default cases Comparitvily high in December month
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas version 1.5.3
+- numpy version 1.23.5
+- matplotlib  version 3.7.0
+- seaborn version 0.12.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sunilkumar0007] - feel free to contact me!
 
 
 <!-- Optional -->
