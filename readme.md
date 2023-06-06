@@ -32,15 +32,15 @@ Lending club is a consumer finance company which specializes in lending various 
   - More expierenced customers(10+ years) has high prone to charged off
   - Rented Source Verified has highest number of Charged Off cases
   - Debt consolidation purpose has high number of loans.
-  - If we compare both the graphs small_busniess loans high in Charged Off case compared to whole number of loans.
-  - after comparing both the graphs zip_code 900 -999 are taking more number of Chraged Off loans
+  - Small_busniess loans high in Charged Off case compared to whole number of loans.
+  - zip_code range from 900 -999 are taking more number of Chraged Off loans
   - CA state taking more loans and more tends to charged off as well
 ### Conclusion from bivariate analysis
   - Higher loan amount with higher interest rate leads to ChragedOff cases
-  - Higher Income with higher loan_amount and annual_income leads to Default
+  - Higher Income with higher loan_amount leads to Default
   - Lower Dti with interest rate between 11-16% leads to Default
   - More Default cases we can see here in Ownership as Mortgade and emp_length > 10 years
-  - high interestrate with 60 months tenure has high probability of 'Charged Off'
+  - High interestrate with 60 months tenure has high probability of 'Charged Off'
   - ZipCode in 900 -999 range(CA state) highest number of default cases Comparitvily high in December month
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
